@@ -8,8 +8,8 @@ namespace Random_Class
         {
             var random = new Random();
             for (int i = 0; i < 10; i++)
-                Console.WriteLine(random.Next(1,10));
-
+                Console.Write((char)('a' + random.Next(0, 26)));
+            Console.WriteLine();
         }
     }
 }
